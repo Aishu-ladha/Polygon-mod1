@@ -1,9 +1,9 @@
 const hre = require("hardhat");
 const randomNFTJSON = require("../artifacts/contracts/randomp.sol/RandomNFT.json");
 
-const contract_address ='0x5C383C8c7AF37Af03e9547021CAB987E51d117A3'; // Replace with your contract address
+const contract_address ='0x6F8eC97D8e76d8e2b061a4711E54d3CBe6813ADC'; // Replace with your contract address
 const randomNFTABI = randomNFTJSON.abi;
-const walletAddress = "0xB48c24e5d5697550593b862C666Ae59e5B5671Be"; // Replace with your wallet address
+const walletAddress = "0x2ae4E9D3a5E8CD009621f0366e8e79D2F6c122Ff"; // Replace with your wallet address
 
 const fxRootContractABI = require("../fxRootcontract.json");
 const fxERC21RootAddress = "0xF9bc4a80464E48369303196645e876c8C7D972de"; // Replace with the actual fxERC21Root contract address

@@ -1,9 +1,9 @@
 const hre = require("hardhat");
 const randomNFTContractJSON = require("../artifacts/contracts/randomp.sol/RandomNFT.json");
 
-const contract_address ="0x5C383C8c7AF37Af03e9547021CAB987E51d117A3"; //put your contract address here
+const contract_address ="0x6F8eC97D8e76d8e2b061a4711E54d3CBe6813ADC"; //put your contract address here
 const randomNFTABI = randomNFTContractJSON.abi;
-const walletAddress = "0xB48c24e5d5697550593b862C666Ae59e5B5671Be"; // Replace with your wallet address
+const walletAddress = "0x2ae4E9D3a5E8CD009621f0366e8e79D2F6c122Ff"; // Replace with your wallet address
 
 async function main() {
     const randomNFTContract = await ethers.getContractAt(randomNFTABI, contract_address);
